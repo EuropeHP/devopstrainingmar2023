@@ -1,4 +1,4 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -14,6 +14,7 @@ namespace CatalogAPI.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
+	//user2 updated on 8.45am
 	//user3 updated on 8.46am
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
