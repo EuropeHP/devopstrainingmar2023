@@ -22,6 +22,7 @@ namespace CatalogAPI.Models
         [Required]
         [StringLength(50)]
         public string? CatalogName { get; set; }
+//user2 update line24
 //user3 updated line24
 	//user3 change
 
