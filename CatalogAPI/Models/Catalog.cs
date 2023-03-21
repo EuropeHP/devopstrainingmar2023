@@ -14,6 +14,7 @@ namespace CatalogAPI.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
+	//user3 updated on 8.46am
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
