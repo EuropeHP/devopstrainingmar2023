@@ -20,6 +20,7 @@ namespace CatalogAPI.Models
         [Required]
         [StringLength(50)]
         public string? CatalogName { get; set; }
+	//user3
 
         //[JsonIgnore]       
        // public Collection<Product> ProductList { get; set; }
