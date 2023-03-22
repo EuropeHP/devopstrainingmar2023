@@ -7,7 +7,7 @@ namespace CatalogAPI.Models
 {
     //user2 modiying the code
     //add sub catelog name
-
+	//smartgit update
     [Table("Catalog")]
     public class Catalog
     {
